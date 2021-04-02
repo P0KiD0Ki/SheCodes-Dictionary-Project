@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 import "./Dictionary.css";
-import axios from "axios";
+// import axios from "axios";
 
 export default function Dictionary() {
   return (
