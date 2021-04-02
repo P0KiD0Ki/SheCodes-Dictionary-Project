@@ -1,8 +1,15 @@
 import './App.css';
+import Dictionary from './Dictionary';
+import GitHubLink from "./GithubLink";
+import WordofDay from "./WordofDay";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+    <WordofDay />
+    <Dictionary />
+    <GitHubLink />
+    </div>
   );
 }
 
