@@ -4,7 +4,6 @@ import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
-
 export default function Dictionary() {
   const [word, setWord] = useState("");
   let [results, setResults] = useState(null);
@@ -14,7 +13,7 @@ export default function Dictionary() {
   }
 
   function errorFunction() {
-      alert("Oops! Let's try that again.")
+    alert("Oops! Let's try that again.");
   }
 
   function search(event) {
