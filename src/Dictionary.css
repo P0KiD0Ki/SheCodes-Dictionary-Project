@@ -1,5 +1,7 @@
+
+
 body {
-  background: linear-gradient(0deg, rgba(34,193,195,.3) 0%, rgba(73,74,255,.4) 100%) no-repeat;
+  background: linear-gradient(0deg, rgba(34,193,195,.6) 0%, rgba(21, 79, 225, 0.5) 100%) no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,6 +17,7 @@ body {
 .textbox {
   max-width: 355px;
   margin: 0px;
+border: 1px solid;
 }
 
 input.textbox.form-control.form-control-lg {
