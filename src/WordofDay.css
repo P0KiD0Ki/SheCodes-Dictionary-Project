@@ -1,24 +1,26 @@
 .word-of-day {
-margin: 0 auto;
-padding: 0px 100px
+  margin: 0 auto;
+  padding: 0px 100px;
 }
 
 div.col {
-    text-align: left;
+  text-align: left;
 }
 
 h1 {
-    font-size: 60px;
-    padding: 70px 0px 40px 0px;
+  font-size: 60px;
+  padding: 70px 0px 40px 0px;
 }
 
-
+div.word-generator.col {
+  margin: auto;
+}
 
 .the-word {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .wod-container {
-    border: 8px solid #22c1c3;
-    border-radius: 15px;
+  border: 8px solid #22c1c3;
+  border-radius: 15px;
 }
