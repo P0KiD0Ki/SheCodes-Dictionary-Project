@@ -1,3 +1,7 @@
+:root {
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .word-of-day {
   margin: 0 auto;
   padding: 0px 100px;
@@ -21,6 +25,8 @@ div.word-generator.col {
 }
 
 .wod-container {
-  border: 8px solid #22c1c3;
+  border: 8px solid rgb(34, 193, 195, .7);
   border-radius: 15px;
+  box-shadow: var(--box-shadow);
+  background-color: rgb(255, 255, 255, .3);
 }
