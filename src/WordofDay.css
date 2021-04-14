@@ -1,5 +1,10 @@
+.word-of-day {
+margin: 0 auto;
+padding: 0px 100px
+}
+
 div.col {
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -8,12 +13,12 @@ h1 {
 }
 
 
-/* 
-h2 {
-    font-size: 50px;
+
+.the-word {
+    font-size: 45px;
 }
 
 .wod-container {
-    border: 4px solid blue;
-
-} */
+    border: 8px solid #22c1c3;
+    border-radius: 15px;
+}
