@@ -24,7 +24,7 @@ export default function WordofDay() {
       <h1 className="text-center">Dictionary</h1>
       <Container className="word-of-day">
         <Row>
-          <Col>
+          <Col className="word-generator">
             <h2>RANDOM WORD GENERATOR</h2>
             <p>
               Build your vocabulary with new words and definitions every day of the week!
