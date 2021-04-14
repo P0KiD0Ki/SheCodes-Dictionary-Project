@@ -2,6 +2,7 @@ import React from "react";
 import Example from "./Example";
 import Synonyms from "./Synonyms"
 
+
 export default function Meaning(props) {
   return (
     <div className="Meaning">
