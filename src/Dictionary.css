@@ -12,3 +12,7 @@
 input.textbox.form-control.form-control-lg {
   display: inline-block;
 }
+
+div.form-group {
+  padding: 70px 0px 30px;
+}
