@@ -21,11 +21,11 @@ export default function WordofDay() {
   
   return (
     <div>
-      <h1 className="text-center">Dictionary</h1>
+      <h1 className="text-center">Dictionary App</h1>
       <Container className="word-of-day">
         <Row>
           <Col className="word-generator">
-            <h2>RANDOM WORD GENERATOR</h2>
+            <h2 className="random-heading">RANDOM WORD <br />GENERATOR</h2>
             <p>
               Build your vocabulary with new words and definitions every day of the week!
             </p>
