@@ -40,9 +40,13 @@ export default function Dictionary() {
               className="textbox"
               onChange={handleSubmit}
             />
+            <p className="easter-egg">
+              <strong>suggestions:</strong> longing, rusted, seventeen, daybreak,<br />furnace, nine, benign, homecoming, one, freight car.
+            </p>
           </Form.Group>
         </form>
       </div>
+
       <Results results={results} />
     </div>
   );

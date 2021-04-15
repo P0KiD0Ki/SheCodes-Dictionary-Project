@@ -17,6 +17,12 @@ body {
   text-align: center;
 }
 
+p.easter-egg{ 
+  color: rgba(0, 0, 0, 0.4);
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0px 0px 0px;
+    font-size: 15px;
+}
 .textbox {
   max-width: 400px;
   margin: 0px;
