@@ -1,12 +1,14 @@
 import React from "react";
 import Example from "./Example";
 import Synonyms from "./Synonyms"
+import "./Results.css"
 
 
 export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <h4>
+      <section>
+      <h4 className="part-of-speech">
         <strong>
           <em>{props.meaning.partOfSpeech}</em>
         </strong>
@@ -14,15 +16,18 @@ export default function Meaning(props) {
      {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
+            <section>
             <p>
-              <h5>{definition.definition}</h5>
+              <h5 className="card-definition">{definition.definition}</h5>
               <hr />
               <Example example={definition.example} />
               <Synonyms synonyms={definition.synonyms} />
             </p>
+            </section>
           </div>
         );
       })}
+      </section>
     </div>
   );
 }
