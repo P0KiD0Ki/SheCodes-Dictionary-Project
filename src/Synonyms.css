@@ -3,5 +3,6 @@ li {
   display: inline-block;
   list-style-type: none;
   margin: 0;
-  padding: 1px;
+  padding: 0px 5px;
+  font-family: 'Montserrat', sans-serif;
 }
