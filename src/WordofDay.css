@@ -25,6 +25,7 @@ div.word-generator.col {
 .the-word {
   font-size: 45px;
   font-family: 'Prata', serif;
+  padding: 10px 0px 15px 0px;
 }
 
 .wod-container {
