@@ -1,13 +1,46 @@
+:root {
+  --border: 4px solid #8dbce8;
+  --border-radius: 10px;
+  --box-background: rgb(255, 255, 255, 0.3);
+}
+
 div.Results {
-    margin: 0px 250px;
+  margin: 0px 150px;
 }
 
 h2.definition {
-    font-size: 45px;
-    text-align: center;
+  font-size: 65px;
+  text-align: center;
+  font-family: 'Prata', serif;
 }
 
 .Phonetics {
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
+  padding: 0px 0px 15px 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.Example {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--box-background);
+  padding: 20px 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+h4.part-of-speech {
+  font-size: 40px;
+  padding: 0px 0px 0px 40px;
+  font-family: 'Prata', serif;
+}
+
+h5.card-definition {
+    font-family: 'Montserrat', sans-serif;
 }
