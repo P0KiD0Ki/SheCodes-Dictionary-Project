@@ -1,7 +1,10 @@
-
-
 body {
-  background: linear-gradient(0deg, rgba(34,193,195,.6) 0%, rgba(21, 79, 225, 0.5) 100%) no-repeat;
+  background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 0.6) 0%,
+      rgba(21, 79, 225, 0.5) 100%
+    )
+    no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,9 +18,10 @@ body {
 }
 
 .textbox {
-  max-width: 355px;
+  max-width: 400px;
   margin: 0px;
-border: 1px solid;
+  border: 1px solid;
+  font-family: 'Prata', serif;
 }
 
 input.textbox.form-control.form-control-lg {
