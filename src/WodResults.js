@@ -13,7 +13,7 @@ export default function WodResults(props) {
       setPronunciation(response.data[0].phonetics[0].audio);
       setPartofspeech(response.data[0].meanings[0].partOfSpeech);
       setDefinition(response.data[0].meanings[0].definitions[0].definition);
-    }, 3000);
+    }, 2000);
   }
 
   let apiUrl1 = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${props.word}`;
