@@ -3,13 +3,20 @@ import { Form } from "react-bootstrap";
 import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
+import Images from "./Images"
 
 export default function Dictionary() {
   const [word, setWord] = useState("");
-  let [results, setResults] = useState(null);
+  const [results, setResults] = useState(null);
+  const [photos, setPhotos] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data[0]);
+  }
+
+  function handlePixelbayResponse(response) {
+    setPhotos(response.data.hits);
+    console.log(response.data);
   }
 
   function errorFunction() {
@@ -22,6 +29,11 @@ export default function Dictionary() {
     //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
     axios.get(apiUrl).then(handleResponse).catch(errorFunction);
+  
+    let pixelbayApiKey = "21180743-5da6b1505fe49af325faa42d1"
+    let pixelbayApiUrl = `https://pixabay.com/api/?key=${pixelbayApiKey}&q=${word}&image_type=all&orientation=horizontal&per_page=9`
+  
+    axios.get(pixelbayApiUrl).then(handlePixelbayResponse);
   }
 
   function handleSubmit(event) {
@@ -48,6 +60,7 @@ export default function Dictionary() {
       </div>
 
       <Results results={results} />
+      <Images photos={photos} />
     </div>
   );
 }
