@@ -13,7 +13,7 @@ export default function WordofDay() {
 
   function generateWordOfDay() {
     let wodApiKey = "qn8bh0l6c1agzsxgijmuazcwxzhh8of8u5ehqpgcvenlev28m";
-    let wodApiUrl = `https://api.wordnik.com/v4/words.json/randomWord?hasDictionaryDef=true&includePartOfSpeech=true&maxCorpusCount=-1&minDictionaryCount=1&maxDictionaryCount=-1&minLength=5&maxLength=-1&api_key=${wodApiKey}
+    let wodApiUrl = `https://api.wordnik.com/v4/words.json/randomWord?hasDictionaryDef=true&api_key=${wodApiKey}
     `;
     axios.get(wodApiUrl).then(displayWordOfDay);
   }
