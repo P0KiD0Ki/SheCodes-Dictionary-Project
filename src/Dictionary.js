@@ -31,7 +31,7 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse).catch(errorFunction);
   
     let pixelbayApiKey = "21180743-5da6b1505fe49af325faa42d1"
-    let pixelbayApiUrl = `https://pixabay.com/api/?key=${pixelbayApiKey}&q=${word}&image_type=all&orientation=horizontal&per_page=9`
+    let pixelbayApiUrl = `https://pixabay.com/api/?key=${pixelbayApiKey}&q=${word}&image_type=all&orientation=horizontal&per_page=12`
   
     axios.get(pixelbayApiUrl).then(handlePixelbayResponse);
   }
