@@ -58,7 +58,6 @@ export default function Dictionary() {
           </Form.Group>
         </form>
       </div>
-
       <Results results={results} />
       <Images photos={photos} />
     </div>
