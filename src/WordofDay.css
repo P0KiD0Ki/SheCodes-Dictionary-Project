@@ -46,9 +46,10 @@ div.word-generator.col {
 /* media queries */
 @media (max-width: 900px) {
   h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Prata", serif;
     text-align: center;
+    
   }
 
   div.word-of-day.container {
