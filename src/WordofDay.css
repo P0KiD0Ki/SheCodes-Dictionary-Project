@@ -9,49 +9,55 @@ div.col {
 h1 {
   font-size: 90px;
   padding: 100px 0px 40px 0px;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
+  text-align: center;
 }
 
-h2.random-heading{
-  font-family: 'Prata', serif;
+h2.random-heading {
+  font-family: "Prata", serif;
   font-size: 25px;
 }
 
 div.word-generator.col {
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .the-word {
   font-size: 45px;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   padding: 10px 0px 0px;
 }
 
 .wod-container {
-  border: 8px solid #8DBCE8;
+  border: 8px solid #8dbce8;
   border-radius: 15px;
   box-shadow: var(--box-shadow);
-  background-color: rgb(255, 255, 255, .3);
+  background-color: rgb(255, 255, 255, 0.3);
 }
 
 .word-of-day {
   margin: 0 auto;
   padding: 0px 150px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* rgb(34, 193, 195, .7) */
 
 /* media queries */
 @media (max-width: 900px) {
-div.word-of-day.container {
-padding: 0;
-}
+  h1 {
+    font-size: 70px;
+    font-family: "Prata", serif;
+    text-align: center;
+  }
 
-.the-word {
-  font-size: 35px;
-  font-family: 'Prata', serif;
-  padding: 10px 0px 0px;
-}
+  div.word-of-day.container {
+    padding: 0;
+  }
 
+  .the-word {
+    font-size: 35px;
+    font-family: "Prata", serif;
+    padding: 10px 0px 0px;
+  }
 }
