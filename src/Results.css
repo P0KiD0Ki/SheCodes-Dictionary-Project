@@ -44,3 +44,18 @@ h4.part-of-speech {
 h5.card-definition {
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 900px) {
+  div.Results {
+    margin: 0px;
+  }
+  
+  section {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--box-background);
+    padding: 20px 30px;
+    margin: 0px 0px 20px 0px;
+  }
+}

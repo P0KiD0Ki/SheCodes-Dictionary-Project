@@ -41,3 +41,17 @@ div.word-generator.col {
   font-family: 'Montserrat', sans-serif;
 }
 /* rgb(34, 193, 195, .7) */
+
+/* media queries */
+@media (max-width: 900px) {
+  h1.text-center {
+    font-size: 70px;
+    padding: 100px 0px 40px 0px;
+    font-family: 'Prata', serif;
+  }
+
+div.word-of-day.container {
+padding: 0;
+}
+
+}
