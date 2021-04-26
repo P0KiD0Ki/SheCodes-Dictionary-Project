@@ -21,7 +21,7 @@ export default function WordofDay() {
   
   return (
     <div>
-      <h1 className="text-center">Dictionary App</h1>
+      <h1>Dictionary App</h1>
       <Container className="word-of-day">
         <Row>
           <Col className="word-generator">
