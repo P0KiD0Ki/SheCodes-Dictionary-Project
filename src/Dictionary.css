@@ -40,6 +40,12 @@ div.form-group {
 
 /* media queries */
 @media (max-width: 900px) {
+  h1.text-center {
+    font-size: 70px;
+    font-family: 'Prata', serif;
+
+  }
+
   .textbox {
     max-width: 600px;
     margin: 0px;
