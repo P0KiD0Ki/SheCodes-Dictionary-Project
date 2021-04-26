@@ -54,4 +54,10 @@ div.word-of-day.container {
 padding: 0;
 }
 
+.the-word {
+  font-size: 35px;
+  font-family: 'Prata', serif;
+  padding: 10px 0px 0px;
+}
+
 }

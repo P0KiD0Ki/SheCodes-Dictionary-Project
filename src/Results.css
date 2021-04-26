@@ -50,6 +50,19 @@ h5.card-definition {
     margin: 0px;
   }
   
+  h2.definition {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Prata', serif;
+  }
+
+  .Phonetics {
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
   section {
     border: var(--border);
     border-radius: var(--border-radius);
@@ -58,4 +71,16 @@ h5.card-definition {
     padding: 20px 30px;
     margin: 0px 0px 20px 0px;
   }
+
+  h4.part-of-speech {
+    font-size: 35px;
+    padding: 0px 0px 0px 40px;
+    font-family: 'Prata', serif;
+  }
+
+  h5.card-definition {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
 }
