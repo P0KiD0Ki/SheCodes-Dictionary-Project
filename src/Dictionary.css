@@ -17,17 +17,17 @@ body {
   text-align: center;
 }
 
-p.easter-egg{ 
+p.easter-egg {
   color: rgba(0, 0, 0, 0.4);
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 0px 0px 0px;
-    font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0px 0px 0px;
+  font-size: 15px;
 }
 .textbox {
   max-width: 400px;
   margin: 0px;
   border: 1px solid;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
 }
 
 input.textbox.form-control.form-control-lg {
@@ -40,19 +40,13 @@ div.form-group {
 
 /* media queries */
 @media (max-width: 900px) {
-  h1.text-center {
-    font-size: 70px;
-    font-family: 'Prata', serif;
-
-  }
-
-  .textbox {
+   .textbox {
     max-width: 600px;
     margin: 0px;
     border: 1px solid;
-    font-family: 'Prata', serif;
+    font-family: "Prata", serif;
   }
-  
+
   input.textbox.form-control.form-control-lg {
     font-size: 12px;
     padding: 4px 8px;
