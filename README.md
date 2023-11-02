@@ -1,2 +1,2 @@
-# SheCodes-Dictionary-Project
- SheCodes React Project 2
+# Dictionary-Project
+React Project 2
